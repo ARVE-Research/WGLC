@@ -1,7 +1,6 @@
-# WGLC
-## The WWLLN Global Lightning Climatology and timeseries
+# The WWLLN Global Lightning Climatology and timeseries (WGLC)
 
-This repository contains global lightning stroke density and stroke power calculated from georeferenced stroke count data from the World Wide Lightning Location Network (WWLLN). The real-time raw stroke count data were reprocessed by WWLLN to remove artifacts and improve geolocation, which resulted in the "AE" georeferenced and timestamped stroke count data. These data were then gridded at 0.5 degree 5 arc-minute and hourly resolution, converted into density, and corrected for detection efficiency using the WWLLN global gridded detection efficiency maps. Mean, median, and standard deviation of stroke power are also provided at 30-minute resolution. The corrected hourly rasters were then aggregated into monthly totals and into a multi-year monthly mean climatology. The data cover the period 2010-2020 and will be updated in the coming years.
+This repository contains global lightning stroke density and stroke power calculated from georeferenced stroke count data from the World Wide Lightning Location Network [WWLLN](http://wwlln.net). The real-time raw stroke count data were reprocessed by WWLLN to remove artifacts and improve geolocation, which resulted in the "AE" georeferenced and timestamped stroke count data. These data were then gridded at 0.5 degree 5 arc-minute and hourly resolution, converted into density, and corrected for detection efficiency using the WWLLN global gridded detection efficiency maps. Mean, median, and standard deviation of stroke power are also provided at 30-minute resolution. The corrected hourly rasters were then aggregated into monthly totals and into a multi-year monthly mean climatology. The data cover the period 2010-2020 and will be updated in the coming years.
 
 For a complete description of the data see:
 
