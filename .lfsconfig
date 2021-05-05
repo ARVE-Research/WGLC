@@ -1,0 +1,3 @@
+[lfs]
+	url = https://download:download@git-lfs.terraces.hku.hk/repository/WGLC/info/lfs
+	pushurl = https://git-lfs.terraces.hku.hk/repository/WGLC/info/lfs
