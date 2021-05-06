@@ -17,11 +17,13 @@ The data are stored in a [NetCDF](https://www.unidata.ucar.edu/software/netcdf/)
 **Variables included in this release**
 | Variable | Description | Units | Timestep<sup>1</sup> | Spatial resolution |
 | -------------- | ----------- | ----- | -------- | ------------------ |
-| density        | lightning stroke density  | strokes km<sup>-2</sup> d<sup>-1</sup>  | day, month  | 30 minute, 5 minute |
+| density        | lightning stroke density  | strokes km<sup>-2</sup> d<sup>-1</sup>  | day<sup>2</sup>, month  | 30 minute, 5 minute |
 | power_mean     | mean stroke power | MW | month | 30 minute |
 | power_median   | median stroke power  | MW  | month | 30 minute |
 | power_SD       | standard deviation of stroke power  | MW | month  | 30 minute  |
 
-<sup>1</sup>4018 elements in the time dimension for daily data; 108 for monthly data; 12 for the climatology
+<sup>1</sup>4018 elements in the time dimension for daily data; 108 for monthly data; 12 for the climatology.
+
+<sup>2</sup>Daily fields currently available at 30-minute resolution.
 
 [![License: CC BY-SA 4.0](https://img.shields.io/badge/License-CC%20BY--SA%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-sa/4.0/)
